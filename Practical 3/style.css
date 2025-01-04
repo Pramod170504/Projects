@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Row{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(140, 182, 182);
+}
+.row{
+    display: flex;
+}
+h1{
+    margin: 10px;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/11793129/pexels-photo-11793129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: 85% 30%;
+}
