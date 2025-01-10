@@ -73,6 +73,7 @@
 .content-img{
     width: 50%;
     height: 100%;
+    border-radius: 10px;
 }
 .side{
     display: flex;
@@ -158,10 +159,11 @@
     height: 25%;
     width: 25%;
     margin-bottom: 40px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0.5px 2px 5px 3px rgb(219, 211, 211);
 }
 .content-image{
     height: 60%;
@@ -189,7 +191,7 @@
     margin-bottom: 5px;
 }
 #Experience{
-    height: 130vh;
+    height: 140vh;
     background-color: rgb(8, 0, 20);
     padding: 0px 155px;
     padding-top: 80px;
@@ -209,19 +211,75 @@
 }
 .Experience-content{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
-.Experience-lang{
+.Experience-lang1{
     /* background-color: white; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 200px;
     width: 300px;
-    box-shadow: 1px 4px 4px 3px gold;
+    box-shadow: 0.5px 4px 4px 3px gold;
     transition: all 1s;
 }
-.Experience-lang:hover{
+.Experience-lang2{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    box-shadow: 0.5px 4px 4px 3px rgb(0, 255, 149);
+    transition: all 1s;
+}
+.Experience-lang3{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    box-shadow: 0.5px 4px 4px 3px rgb(0, 255, 255);
+    transition: all 1s;
+}
+.Experience-lang4{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    box-shadow: 0.5px 4px 4px 3px rgb(255, 30, 0);
+    transition: all 1s;
+}
+.Experience-lang5{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    box-shadow: 0.5px 4px 4px 3px rgb(17, 0, 255);
+    transition: all 1s;
+}
+.Experience-lang6{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    box-shadow: 0.5px 4px 4px 3px rgb(234, 0, 255);
+    transition: all 1s;
+}
+.Experience-lang7{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    box-shadow: 0.5px 4px 4px 3px rgb(132, 0, 255);
+    transition: all 1s;
+}
+.Experience-lang8{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    box-shadow: 0.5px 4px 4px 3px rgb(0, 255, 85);
+    transition: all 1s;
+}
+.Experience-lang1:hover,.Experience-lang2:hover,.Experience-lang3:hover,.Experience-lang4:hover,.Experience-lang5:hover,.Experience-lang6:hover,.Experience-lang7:hover,.Experience-lang8:hover{
     transform: scale(1.05);
 }
 .exp-heading{
@@ -234,44 +292,4 @@
     height: 150px;
     width: 200px;
     margin-left: 50px;
-}
-#contact{
-    /* height: 70vh; */
-    background-color: rgb(8, 0, 20);
-    padding: 0px 155px;
-    padding-top: 80px;
-}
-.contact{
-    display: flex;
-    flex-direction: column;width: 500px;
-    margin: auto;
-    gap: 20px;
-    border: 1px solid red;
-    padding: 20px;
-}
-.Contact{
-    font-size: 1.8rem;
-    color: white;
-    margin-bottom: 30px;
-}
-.contact-para{
-    color: white;
-    margin-bottom: 30px;
-}
-.contact-detail{
-    background-color: rgba(7, 7, 7, 0.637);
-    height: 40px;
-    border: white;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding-left: 20px;
-}
-.contact-message{
-    background-color: rgba(7, 7, 7, 0.637);
-    height: 200px;
-    border: white;
-    margin-top: 10px;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding-left: 20px;
 }
